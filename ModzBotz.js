@@ -1,4 +1,3 @@
-
 require('./settings')
 const { BufferJSON, WA_DEFAULT_EPHEMERAL, generateWAMessageFromContent, proto, generateWAMessageContent, generateWAMessage, prepareWAMessageMedia, areJidsSameUser, getContentType } = require('@adiwajshing/baileys')
 const fs = require('fs')
@@ -3539,7 +3538,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
             }
             break
             case 'sc': case 'script': {
-                reply(` https://github.com/Kianganz1`)
+                reply(` https://github.com/modzbotzofc`)
             }
             break
 case 'allmenu1': {
@@ -4166,7 +4165,7 @@ await ModzBotz.send5ButImg(from, `` + '' + ' ', `
 𝗧𝗛𝗔𝗡𝗞𝗦 𝗧𝗢 🙂
 
 ➥Kianganz1
-「https://github.com/Kianganz1」
+「https://github.com/modzbotzofc」
 
 
 `,unicorn, [{"urlButton": {"displayText": "my web","url": `${myweb}`}},{"urlButton": {"displayText": " owner","url": `${sc}`}},{"quickReplyButton": {"displayText": "ping","id": 'ping'}},{"quickReplyButton": {"displayText": "owner","id": 'owner'}}] )
