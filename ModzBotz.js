@@ -202,11 +202,11 @@ module.exports = ModzBotz = async (ModzBotz, m, chatUpdate, store) => {
 	
 	//group target \\
 const reply = (teks) => {
-            ModzBotz.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": `MODZ BOTZ BY KIAN`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./GojoMedia/bot.jpg`),"sourceUrl": ""}}}, { quoted: m})
+            ModzBotz.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": ``, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./GojoMedia/bot.jpg`),"sourceUrl": ""}}}, { quoted: m})
         }
         
         const replay = (teks) => {
-            ModzBotz.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": `MODZ BOTZ BY KIAN`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./GojoMedia/bot.jpg`),"sourceUrl": "ᴍᴏᴅᴢ ʙᴏᴛᴢ ʙʏ ᴋɪᴀɴ"}}}, { quoted: m})
+            ModzBotz.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": ``, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./GojoMedia/bot.jpg`),"sourceUrl": "ᴍᴏᴅᴢ ʙᴏᴛᴢ ʙʏ ᴋɪᴀɴ"}}}, { quoted: m})
         }
 	
         //Public & Self\\
@@ -1798,7 +1798,7 @@ break
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '𝙈𝙀𝙉𝙐',
+                                    displayText: 'menu',
                                     id: 'menu'
                                 }
                             }, {
@@ -3419,7 +3419,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 ╔═══『𝗕𝗼𝘁 𝗜𝗻𝗳𝗼』
 ╠•⪼Speed : ${latensie.toFixed(4)} miliseconds
 ╠•⪼Runtime : ${runtime(process.uptime())}
-╠•⪼Bot Namd : ${global.botname}
+╠•⪼Bot Name : ${global.botname}
 ╠•⪼Owner Name : ${global.ownername}
 ╠•⪼Owner Number : ${global.owner}
 ╠•⪼Platfrom : ${os.platform()}
